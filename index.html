@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GastroBoard — Alles an seinem Platz</title>
+<meta name="description" content="Rezepte, Kalkulation, Lager, Inventur und Veranstaltungen in einer App. Für professionelle Küchen und Catering. iPhone, iPad und Mac.">
+<link rel="canonical" href="https://gastroboard.net/">
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="de_DE">
+<meta property="og:site_name" content="GastroBoard">
+<meta property="og:title" content="GastroBoard — Alles an seinem Platz">
+<meta property="og:description" content="Die Küchenverwaltung, die dem Tag folgt: Mise en place, Einkauf, Briefing, Service, Abschluss.">
+<meta property="og:url" content="https://gastroboard.net/">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="/assets/logo.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/logo.svg">
+
+<link rel="preload" href="/fonts/archivo-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/plex-sans-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+<a class="skip" href="#main">Zum Inhalt springen</a>
+
+<header class="top" id="top">
+  <a class="mark" href="/" aria-label="GastroBoard, Startseite">
+    <svg viewBox="0 0 512 512" aria-hidden="true">
+      <rect width="512" height="512" rx="112" fill="#A0542E"/>
+      <g fill="#F7F1E9">
+        <circle cx="256" cy="196" r="78"/><circle cx="184" cy="224" r="62"/><circle cx="328" cy="224" r="62"/>
+        <rect x="178" y="216" width="156" height="94" rx="20"/>
+        <path d="M194 296h124a11 11 0 0 1 11 11v36a13 13 0 0 1-13 13H196a13 13 0 0 1-13-13v-36a11 11 0 0 1 11-11z"/>
+      </g>
+    </svg>
+    <span>GastroBoard</span>
+  </a>
+
+  <nav aria-label="Abschnitte">
+    <a href="#mise">Rezepte</a>
+    <a href="#einkauf">Einkauf</a>
+    <a href="#service">Service</a>
+    <a href="#deklaration">Deklaration</a>
+  </nav>
+
+  <span class="status">Demnächst im App&nbsp;Store</span>
+</header>
+
+<main id="main">
+
+  <!-- ================================================================ Hero -->
+  <section class="hero">
+    <div class="hero-meta mono">
+      <span>Küche &amp; Catering</span>
+      <span>iPhone · iPad · Mac</span>
+      <span>Deutsch, DSGVO-konform</span>
+    </div>
+
+    <h1 class="display" data-split>
+      Alles an<br>seinem <em>Platz</em>
+    </h1>
+
+    <div class="hero-foot">
+      <p>
+        Mise en place gilt nicht nur für den Posten. GastroBoard hält Rezepte,
+        Kalkulation, Lager, Bestellungen und Veranstaltungen an einem Ort —
+        und rechnet die Arbeit, die sonst auf Zetteln liegen bleibt.
+      </p>
+      <div class="platforms mono" aria-hidden="true">
+        <span>01 Rezept</span>
+        <span>02 Einkauf</span>
+        <span>03 Service</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ Der Tag -->
+  <div class="day">
+    <div class="rail" aria-hidden="true"><i></i></div>
+
+    <!-- --------------------------------------------------------- 14:00 -->
+    <section class="station" id="mise">
+      <div class="stamp">
+        <span class="dot" aria-hidden="true"></span>
+        <span class="time">14:00</span>
+      </div>
+
+      <span class="eyebrow">Mise en place</span>
+      <h2 class="display" data-split>Das Rezept ist<br>die Quelle</h2>
+      <p class="lede">
+        Jedes Rezept trägt Zutaten, Portionen, Allergene und ein Foto. Aus dieser
+        einen Angabe entstehen später Kalkulation, Einkaufsliste und Aushang —
+        Sie pflegen die Daten genau einmal.
+      </p>
+
+      <div class="slips">
+        <article class="slip" data-anim>
+          <span class="idx">Rezepte</span>
+          <h3>Nach eigenen Arten sortiert</h3>
+          <p>Dessert, Amuse-Bouche, Weihnachtsmenü — Sie legen die Kategorien selbst an.</p>
+        </article>
+        <article class="slip" data-anim>
+          <span class="idx">Portionen</span>
+          <h3>Von 10 auf 240</h3>
+          <p>Mengen rechnen sich mit. Ein Rezept genügt für jede Gästezahl.</p>
+        </article>
+        <article class="slip" data-anim>
+          <span class="idx">Kalkulation</span>
+          <h3>Marge in einem Schritt</h3>
+          <p>Zutaten übernehmen, EK-Preise ergänzen. Wareneinsatzquote rechnet die App.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- --------------------------------------------------------- 16:00 -->
+    <section class="station" id="einkauf">
+      <div class="stamp">
+        <span class="dot" aria-hidden="true"></span>
+        <span class="time">16:00</span>
+      </div>
+
+      <span class="eyebrow">Einkauf</span>
+      <h2 class="display" data-split>Elf Eier,<br>nicht dreimal Eier</h2>
+      <p class="lede">
+        Ein Event hat drei Gänge, jeder Gang braucht Eier. GastroBoard geht alle
+        Rezepte des Menüs durch, rechnet auf die geplanten Portionen hoch und
+        legt gleiche Zutaten zusammen. Was herauskommt, ist eine Bestellung.
+      </p>
+
+      <div class="merge" id="merge">
+        <div class="sources">
+          <div class="rcp" data-src><span class="name">Käsekuchen</span><span class="qty">4 Eier</span></div>
+          <div class="rcp" data-src><span class="name">Lasagne</span><span class="qty">2 Eier</span></div>
+          <div class="rcp" data-src><span class="name">Vanilleeis</span><span class="qty">5 Eier</span></div>
+        </div>
+
+        <div class="arrow" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
+            <path d="M3 12h17M14 6l6 6-6 6"/>
+          </svg>
+        </div>
+
+        <div class="result">
+          <div class="hd"><span>Bestellung</span><span>Entwurf</span></div>
+          <div class="row hi"><span class="name">Eier</span><span class="qty" data-count>11</span></div>
+          <div class="row"><span class="name">Mehl</span><span class="qty">3,2 kg</span></div>
+          <div class="row"><span class="name">Sahne</span><span class="qty">4,5 l</span></div>
+          <p class="note">Zusammengefasst nach Zutat und Einheit. Lieferant und Preis bleiben hinterlegt.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- --------------------------------------------------------- 17:30 -->
+    <section class="station" id="briefing">
+      <div class="stamp">
+        <span class="dot" aria-hidden="true"></span>
+        <span class="time">17:30</span>
+      </div>
+
+      <span class="eyebrow">Briefing</span>
+      <h2 class="display" data-split>Jeder sieht,<br>was ihn angeht</h2>
+      <p class="lede">
+        Chef, Sous-Chef, Koch — die Rolle bestimmt, welche Module überhaupt
+        erscheinen. Einzelne Rechte vergeben Sie pro Person, ohne dass jemand
+        eine Einstellung suchen muss.
+      </p>
+
+      <div class="slips">
+        <article class="slip" data-anim>
+          <span class="idx">Rollen</span>
+          <h3>Drei Stufen, klar getrennt</h3>
+          <p>Ein Koch sieht Rezepte und Tagesnotizen. Zahlen bleiben beim Chef.</p>
+        </article>
+        <article class="slip" data-anim>
+          <span class="idx">Übergabe</span>
+          <h3>Was offen geblieben ist</h3>
+          <p>Beim ersten Start am Tag stehen die offenen Notizen der Vorschicht da.</p>
+        </article>
+        <article class="slip" data-anim>
+          <span class="idx">Beitritt</span>
+          <h3>Ein Code genügt</h3>
+          <p>Neue Mitarbeiter treten der Küche mit einem achtstelligen Code bei.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- --------------------------------------------------------- 18:00 -->
+    <section class="station" id="service">
+      <div class="stamp">
+        <span class="dot" aria-hidden="true"></span>
+        <span class="time">18:00</span>
+      </div>
+
+      <span class="eyebrow">Service</span>
+      <h2 class="display" data-split>Der Abend<br>auf einem Blatt</h2>
+      <p class="lede">
+        Menü nach Gängen, Ablaufplan mit Uhrzeiten, zugeteiltes Team, interner
+        Chat. Alles zu einer Veranstaltung an einer Stelle — und als PDF für den
+        Pass, wo kein Bildschirm steht.
+      </p>
+
+      <div class="slips">
+        <article class="slip" data-anim>
+          <span class="idx">Ablaufplan</span>
+          <h3>Uhrzeit für Uhrzeit</h3>
+          <p>Wer stellt wann was bereit. Ausdruckbar für die Wand am Pass.</p>
+        </article>
+        <article class="slip" data-anim>
+          <span class="idx">Rückstellproben</span>
+          <h3>Lückenlos dokumentiert</h3>
+          <p>Nummer, Datum, Gericht — der Nachweis, wenn die Kontrolle kommt.</p>
+        </article>
+        <article class="slip" data-anim>
+          <span class="idx">Chat</span>
+          <h3>Zum Event, nicht zur Person</h3>
+          <p>Absprachen bleiben dort, wo sie hingehören: bei der Veranstaltung.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- --------------------------------------------------- Deklaration -->
+    <section class="station decl" id="deklaration">
+      <div class="stamp">
+        <span class="dot" aria-hidden="true"></span>
+        <span class="time">Pflicht</span>
+      </div>
+
+      <span class="eyebrow">Kennzeichnung</span>
+      <h2 class="display" data-split>a bis n,<br>1 bis 16</h2>
+      <p class="lede">
+        Der vollständige deutsche Deklarationsschlüssel — alle allergie- und
+        unverträglichkeitsauslösenden Stoffe samt Untergruppen, dazu die
+        Zusatzstoffe. Einmal am Rezept gesetzt, erscheinen sie im Klartext auf
+        jedem Ausdruck.
+      </p>
+
+      <div class="keygrid" id="keys">
+        <div class="key"><span class="c">a</span><span class="l">Glutenhaltige Getreide</span></div>
+        <div class="key sub"><span class="c">a1</span><span class="l">Weizen</span></div>
+        <div class="key sub"><span class="c">a3</span><span class="l">Gerste</span></div>
+        <div class="key sub"><span class="c">a5</span><span class="l">Dinkel</span></div>
+        <div class="key"><span class="c">e</span><span class="l">Schalenfrüchte</span></div>
+        <div class="key sub"><span class="c">e2</span><span class="l">Haselnüsse</span></div>
+        <div class="key sub"><span class="c">e7</span><span class="l">Pistazien</span></div>
+        <div class="key sub"><span class="c">e8</span><span class="l">Macadamia</span></div>
+        <div class="key"><span class="c">f</span><span class="l">Eier</span></div>
+        <div class="key"><span class="c">g</span><span class="l">Milch</span></div>
+        <div class="key"><span class="c">i</span><span class="l">Krebstiere</span></div>
+        <div class="key"><span class="c">l</span><span class="l">Sulfite</span></div>
+        <div class="key"><span class="c">2</span><span class="l">Konservierungsstoff</span></div>
+        <div class="key sub"><span class="c">2a</span><span class="l">Nitritpökelsalz</span></div>
+        <div class="key"><span class="c">4</span><span class="l">Geschmacksverstärker</span></div>
+        <div class="key"><span class="c">9</span><span class="l">Süßungsmittel</span></div>
+      </div>
+
+      <p class="decl-foot">Auszug — in der App stehen alle 28 Allergen- und 19 Zusatzstoff-Codes.</p>
+    </section>
+
+    <!-- --------------------------------------------------------- 23:00 -->
+    <section class="station" id="abschluss">
+      <div class="stamp">
+        <span class="dot" aria-hidden="true"></span>
+        <span class="time">23:00</span>
+      </div>
+
+      <span class="eyebrow">Abschluss</span>
+      <h2 class="display" data-split>Was der Abend<br>gekostet hat</h2>
+      <p class="lede">
+        Zur Inventur übernimmt die App den Lagerbestand als Soll, Sie zählen das
+        Ist, die Differenz steht sofort da. Und am Monatsende sehen Sie, wie
+        viele Gäste anstehen und was an Bestellungen offen ist.
+      </p>
+
+      <div class="slips">
+        <article class="slip" data-anim>
+          <span class="idx">Inventur</span>
+          <h3>Soll und Ist nebeneinander</h3>
+          <p>Beim Jahresabschluss zusätzlich der Warenwert, live gerechnet.</p>
+        </article>
+        <article class="slip" data-anim>
+          <span class="idx">Lager</span>
+          <h3>Bevor es verfällt</h3>
+          <p>Artikel mit ablaufendem Datum melden sich in den Statistiken.</p>
+        </article>
+        <article class="slip" data-anim>
+          <span class="idx">Kennzahlen</span>
+          <h3>Der Betrieb in Zahlen</h3>
+          <p>Anstehende Gäste, offener Bestellwert, Auslastung der Events.</p>
+        </article>
+      </div>
+    </section>
+  </div>
+
+  <!-- ============================================================ Schluss -->
+  <section class="close-cta">
+    <h2 class="display" data-split>Bereit, wenn<br>Ihre Küche es ist</h2>
+    <div class="row">
+      <a class="mailto" href="mailto:info@gastroboard.net">info@gastroboard.net</a>
+      <span class="mono" style="color:var(--steel-500)">Für Fragen und frühen Zugang</span>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <span>© <span id="yr">2026</span> Jonathan Kalkreuth · Leipzig</span>
+  <nav aria-label="Rechtliches">
+    <a href="/datenschutz/">Datenschutz</a>
+    <a href="/agb/">AGB</a>
+    <a href="/impressum/">Impressum</a>
+    <a href="/cookies/">Cookies</a>
+    <a href="/kontakt/">Kontakt</a>
+  </nav>
+  <span class="legal-note">Apple, iPhone, iPad, Mac und App Store sind Marken der Apple Inc.</span>
+</footer>
+
+<script src="/vendor/gsap.min.js"></script>
+<script src="/vendor/ScrollTrigger.min.js"></script>
+<script src="/vendor/lenis.min.js"></script>
+<script src="/vendor/split-type.min.js"></script>
+<script src="/js/main.js"></script>
+</body>
+</html>
