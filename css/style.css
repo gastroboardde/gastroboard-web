@@ -136,9 +136,9 @@ img, svg { display: block; max-width: 100%; }
   font-family: var(--display);
   font-variation-settings: "wdth" 112;
   font-weight: 700;
-  /* 1.0 statt enger: Deutsche Grossbuchstaben mit Umlaut brauchen Luft nach
-     oben, sonst berühren die Punkte des Ü die Zeile darüber. */
-  line-height: 1.0;
+  /* Deutsche Versalien brauchen Luft: Unterlängen wie das Komma treffen
+     sonst auf die Umlautpunkte der Zeile darunter. */
+  line-height: 1.12;
   letter-spacing: -0.02em;
   text-transform: uppercase;
 }
